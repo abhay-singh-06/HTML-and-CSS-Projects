@@ -7,13 +7,18 @@ border-radius: 15px;
 top:60px;
 right: 0px;
 padding: 0px 0px 0px 35px;
+background-color: rgba(252, 253, 253, 0.849);
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+display: center;
+
 }
 .cancel {
     position: absolute;
     top: 7px;
     left: 290px; 
-    border-radius: 30%;
     border-color: rgba(31, 31, 243, 0.903);
+    border: none;
+    background: none;
 }
 .correct {
     border-radius: 50%;

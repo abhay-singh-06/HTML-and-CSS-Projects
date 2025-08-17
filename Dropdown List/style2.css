@@ -1,0 +1,18 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.nav li {
+    list-style-type:none;
+    float: left;
+    height: 30px;
+    width: 120px;
+   background-color: aqua;
+
+}
+.nav  li :hover{
+background-color: red;
+}
+
+
+

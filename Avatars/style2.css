@@ -1,82 +1,27 @@
-.img1 {
-    height: 40px;
-    width: 40px;
-    padding: 0%;
-    margin: 0%;
-    border-radius: 100%;
-    margin: 10px;
+.avatarContainer {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-.img2 {
-    height: 60px;
-    width: 60px;
-    padding: 0%;
-    margin: 0%;
-    border-radius: 100%;
-    margin: 10px;
-}
-.img3 {
-    height: 80px;
-    width: 80px;
-    padding: 0%;
-    margin: 0%;
-    border-radius: 100%;
-    margin: 10px;
-}
-.img4 {
-    height: 100px;
-    width: 100px;
-    padding: 0%;
-    margin: 0%;
-    border-radius: 100%;
-    margin: 10px;
 
+.label {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
 }
-.notification-badge{
-    position: absolute;
-  top: 146px;
-  right:470px ;
-  background: grey;
-  color: grey;
-  font-size: 8px;
-  padding: 1px 3px;
-  border-radius: 999px;
+
+.dot {
+  position: absolute;
+  top: 5px;
+  right: -2px;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 100%;
   border: 2px solid white;
 }
-.notification-badge1{
-    position: absolute;
-    background-color: red;
-    border-radius: 999px;
-    padding: 1px 3px;
-    font-size: 8px;
-    top: 130px;
-  right:390px ;
-border:2px solid white ;
-color: red;
-
-}
-.notification-badge2{
-    position: absolute;
-    background-color:grey;
-    border-radius: 999px;
-    padding: 1px 3px;
-    font-size: 8px;
-    top: 88px;
-  right:170px ;
-border:2px solid white ;
-color: grey;
-}
-.notification-badge3{
-    position: absolute;
-    background-color: green;
-    border-radius: 999px;
-    padding: 1px 3px;
-    font-size: 8px;
-    top: 111px;
-  right:290px ;
-border:2px solid white ;
-color: green;
-
-}
-
-
-

@@ -1,18 +1,14 @@
-*{
-margin: 0px;
-padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 .nav li {
-    list-style-type:none;
-    float: left;
-    height: 30px;
-    width: 120px;
-   background-color: aqua;
-
+  list-style-type: none;
+  float: left;
+  height: 30px;
+  width: 120px;
+  background-color: aqua;
 }
-.nav  li :hover{
-background-color: red;
+.nav li :hover {
+  background-color: red;
 }
-
-
-

@@ -33,6 +33,9 @@
   border-radius: 100%;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 75px;
+  left: 70px;
 }
 .label2 {
   font-weight: 500;
@@ -51,12 +54,15 @@
 }
 .avatarContainer3 {
   display: flex;
-  height: 60px;
-  width: 60px;
+  height: 70px;
+  width: 70px;
   background-color: red;
   border-radius: 100%;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 65px;
+  left: 140px;
 }
 .label3 {
   font-weight: 500;
@@ -67,20 +73,23 @@
   position: relative;
   height: 10px;
   width: 10px;
-  background-color: black;
+  background-color: blue;
   border-radius: 100%;
-  top: -22px;
-  right: -9px;
+  top: -26px;
+  right: -13px;
   border: 2px solid white;
 }
 .avatarContainer4 {
   display: flex;
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
   background-color: red;
   border-radius: 100%;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 57px;
+  left: 220px;
 }
 .label4 {
   font-weight: 500;
@@ -91,9 +100,9 @@
   position: relative;
   height: 10px;
   width: 10px;
-  background-color: black;
+  background-color: pink;
   border-radius: 100%;
-  top: -22px;
-  right: -9px;
+  top: -30px;
+  right: -16px;
   border: 2px solid white;
 }

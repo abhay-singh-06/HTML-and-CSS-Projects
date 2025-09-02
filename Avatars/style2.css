@@ -25,3 +25,75 @@
   border-radius: 100%;
   border: 2px solid white;
 }
+.avatarContainer2 {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.label2 {
+  font-weight: 500;
+  color: white;
+  font-size: 14px;
+}
+.dot2 {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 100%;
+  top: -22px;
+  right: -9px;
+  border: 2px solid white;
+}
+.avatarContainer3 {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.label3 {
+  font-weight: 500;
+  color: white;
+  font-size: 14px;
+}
+.dot3 {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 100%;
+  top: -22px;
+  right: -9px;
+  border: 2px solid white;
+}
+.avatarContainer4 {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.label4 {
+  font-weight: 500;
+  color: white;
+  font-size: 14px;
+}
+.dot4 {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 100%;
+  top: -22px;
+  right: -9px;
+  border: 2px solid white;
+}

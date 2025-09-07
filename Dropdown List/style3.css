@@ -1,0 +1,38 @@
+.container {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+.container1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: blue;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+}
+.container2 {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: blue;
+  color: white;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+}

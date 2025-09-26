@@ -1,21 +1,26 @@
+/* Main Body */
 * {
-  background-color: rgb(196, 192, 192);
+  background-color: rgb(220, 219, 219);
 }
+/* Main Container */
 .container {
   border: 2px solid black;
-  height: 65px;
+  height: 75px;
   width: 300px;
   padding: 10px 50px;
-  position: absolute;
-  left: 200px;
+  position: fixed;
+  right: 5px;
   background-color: white;
+  border-radius: 10px;
+  border-color: rgb(220, 219, 219);
 }
+/* Notification */
 .noti {
   opacity: 0.6;
   background-color: white;
   position: absolute;
-  top: -10px;
 }
+/* Cancel Button */
 .cancel {
   position: absolute;
   top: -30px;
@@ -24,7 +29,41 @@
   opacity: 0.5;
   background-color: white;
 }
+
 .cancel:hover {
   color: rgb(120, 115, 115);
   cursor: pointer;
+}
+.dis {
+  background-color: white;
+  font-size: 18px;
+}
+.but {
+  position: fixed;
+  text-decoration: none;
+  top: 85px;
+  background-color: white;
+}
+.but:hover {
+  color: #4f9cf9;
+}
+.mis {
+  position: absolute;
+  color: black;
+  text-decoration: none;
+  top: 75px;
+  background-color: white;
+  left: 100px;
+}
+.mis:hover {
+  opacity: 0.4;
+}
+/* Profile Image Smile face */
+.img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: fixed;
+  right: 360px;
+  top: 20px;
 }

@@ -1,0 +1,160 @@
+/* Main Container */
+.container {
+  border: 1px solid grey;
+  height: 1300px;
+  width: 500px;
+  position: fixed;
+  right: 1px;
+  top: 1px;
+  border-radius: 0px 10px;
+  height: 700px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+/* Head part of the Project */
+.head {
+  border: 2px solid rgb(56, 56, 201);
+  height: 100px;
+  background-color: rgb(56, 56, 201);
+  color: white;
+  padding: 10px;
+}
+.para1 {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+.cont {
+  padding: 15px 0px;
+  color: rgb(153, 153, 255);
+  font-size: 18px;
+}
+.cancel {
+  font-size: 35px;
+  position: fixed;
+  top: 0px;
+  right: 10px;
+  padding: 10px;
+}
+/* Project Name */
+.pro {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+input {
+  border: 1px solid #ccc;
+  min-height: 25px;
+}
+/* Description box */
+.des {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px 20px 80px;
+  font-family: arial, sans-serif;
+  height: 100px;
+}
+
+textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-height: 100px;
+}
+/* Team Members list */
+.team {
+  margin: 20px;
+  font-family: arial, sans-serif;
+  color: rgb(14, 10, 10);
+}
+/* Team Member image style change */
+.img1 {
+  height: 40px;
+  width: 40px;
+}
+.img2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+}
+.img3 {
+  height: 40px;
+  width: 40px;
+}
+.img4 {
+  height: 40px;
+  width: 40px;
+}
+/* Team Members addition icons */
+.add {
+  color: grey;
+  font-size: 20px;
+  padding: 5px;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  border-style: dotted;
+  margin: 10px;
+  position: relative;
+  top: -13px;
+  cursor: default;
+}
+/* Hover not proper work proplem */
+.add-hover {
+  color: #b86363;
+}
+footer {
+  margin: 20px;
+}
+p4 {
+  font-family: arial, sans-serif;
+}
+.pre {
+  opacity: 0.5;
+  margin-left: 25px;
+}
+/* Link Section */
+.link {
+  cursor: pointer;
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(153, 153, 255);
+}
+/* for question marks */
+.ques {
+  border: 2px solid rgb(168, 163, 163);
+  border-radius: 50%;
+  background-color: rgb(168, 163, 163);
+}
+/* Sharing section */
+.shar {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  margin: 15px;
+}
+.sharing {
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+/* Button section */
+.can {
+  position: relative;
+  right: -320px;
+  height: 35px;
+  width: 70px;
+  font-size: 17px;
+  color: black;
+}
+.save {
+  position: relative;
+  right: -340px;
+  height: 35px;
+  width: 50px;
+  background-color: rgb(119, 119, 242);
+  color: white;
+  font-size: 15px;
+}

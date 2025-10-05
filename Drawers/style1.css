@@ -1,8 +1,11 @@
 /* Body container */
+
 * {
   background-color: rgb(210, 213, 213);
 }
+
 /* main conatiner */
+
 .container {
   border: 1px solid grey;
   height: 1200px;
@@ -11,29 +14,46 @@
   position: fixed;
   right: 0px;
   top: 0px;
+  height: 700px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
 }
+
 .head {
   height: 92px;
   width: 100%;
   background-color: white;
 }
+
 /* Team word */
+
 .team {
-  font-size: 20px;
+  font-size: 18px;
   padding: 20px;
   background-color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 /* Cancel button */
+
 .can {
   background-color: white;
   font-size: 35px;
-  position: fixed;
+  position: absolute;
   top: 2px;
   right: 10px;
   padding: 15px;
   color: rgb(163, 165, 166);
 }
+
+/* Cancel button hover */
+
+.can:hover {
+  color: rgb(97, 95, 95);
+}
+
 /* Status paragraph */
+
 .status1 {
   text-decoration: none;
   background-color: white;
@@ -42,6 +62,7 @@
   font-family: sans-serif;
   padding: 15px 1px 1px 20px;
 }
+
 .status2 {
   text-decoration: none;
   background-color: white;
@@ -50,6 +71,7 @@
   font-family: sans-serif;
   padding: 15px 1px 1px 20px;
 }
+
 .status3 {
   text-decoration: none;
   background-color: white;
@@ -58,14 +80,688 @@
   font-family: sans-serif;
   padding: 15px 1px 1px 20px;
 }
+
+/* Underline on status */
+
+.status1:after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  height: 1.5px;
+  background-color: rgb(41, 41, 226);
+}
+
+.status2:after {
+  content: "";
+  position: absolute;
+  left: 70px;
+  top: 100px;
+  height: 1.5px;
+  background-color: rgb(131, 130, 130);
+}
+
+.status3:after {
+  content: "";
+  position: absolute;
+  left: 130px;
+  top: 100px;
+  height: 1.5px;
+  background-color: rgb(131, 130, 130);
+}
+/* Status underline hover */
+
+a:hover:after {
+  width: 40px;
+}
+
 /* Using hover on status  */
+
 .status1:hover {
   color: black;
 }
+
 .status2:hover {
   color: black;
 }
+
 .status3:hover {
   color: black;
 }
+
 /* End of status */
+/* Profile adding section start */
+
+.pro1 {
+  color: white;
+  background-color: white;
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image of person */
+.img1 {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Name of Person */
+
+.name {
+  color: black;
+  position: relative;
+  top: -25px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Person of id */
+
+.id {
+  background-color: white;
+  color: grey;
+  position: relative;
+  top: -25px;
+  left: 75px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+/* Dot show status like online or offline */
+
+.dot {
+  position: absolute;
+  height: 10px;
+  background-color: green;
+  width: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  top: 125px;
+  right: 319px;
+}
+
+/* Menu Button */
+.menu-button {
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top: 135px;
+  right: 30px;
+}
+/* Second Profile */
+.pro2 {
+  color: whitesmoke;
+  background-color: white;
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image of person */
+.images {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Name of Person */
+
+.name2 {
+  color: black;
+  position: relative;
+  top: -25px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Person of id */
+
+.id2 {
+  background-color: white;
+  color: grey;
+  position: relative;
+  top: -2px;
+  left: -99px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+/* Dot show status like online or offline */
+
+.dot2 {
+  position: absolute;
+  height: 10px;
+  background-color: green;
+  width: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  top: 210px;
+  right: 319px;
+}
+
+/* Menu Button */
+.menu-button2 {
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top: 220px;
+  right: 38px;
+}
+/* Profile 3 */
+.pro3 {
+  color: whitesmoke;
+  background-color: white;
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image of person */
+.images {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Name of Person */
+
+.name3 {
+  color: black;
+  position: relative;
+  top: -25px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Person of id */
+
+.id3 {
+  background-color: white;
+  color: grey;
+  position: relative;
+  top: -2px;
+  left: -107px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+/* Dot show status like online or offline */
+
+.dot3 {
+  position: absolute;
+  height: 10px;
+  background-color: green;
+  width: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  top: 300px;
+  right: 319px;
+}
+
+/* Menu Button */
+.menu-button3 {
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top: 305px;
+  right: 38px;
+}
+/* Profile 4 */
+.pro4 {
+  color: whitesmoke;
+  background-color: white;
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image of person */
+.images {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Name of Person */
+
+.name4 {
+  color: black;
+  position: relative;
+  top: -25px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Person of id */
+
+.id4 {
+  background-color: white;
+  color: grey;
+  position: relative;
+  top: -2px;
+  left: -75px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+/* Dot show status like online or offline */
+
+.dot4 {
+  position: absolute;
+  height: 10px;
+  background-color: green;
+  width: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  top: 387px;
+  right: 319px;
+}
+
+/* Menu Button */
+.menu-button4 {
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top: 390px;
+  right: 38px;
+}
+/* Profile 5 */
+.pro5 {
+  color: whitesmoke;
+  background-color: white;
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image of person */
+.images {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Name of Person */
+
+.name5 {
+  color: black;
+  position: relative;
+  top: -25px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Person of id */
+
+.id5 {
+  background-color: white;
+  color: grey;
+  position: relative;
+  top: -2px;
+  left: -50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+/* Dot show status like online or offline */
+
+.dot5 {
+  position: absolute;
+  height: 10px;
+  background-color: green;
+  width: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  top: 475px;
+  right: 319px;
+}
+
+/* Menu Button */
+.menu-button5 {
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top: 480px;
+  right: 38px;
+}
+/* Profile 6 */
+.pro6 {
+  color: whitesmoke;
+  background-color: white;
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image of person */
+.images {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Name of Person */
+
+.name6 {
+  color: black;
+  position: relative;
+  top: -25px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Person of id */
+
+.id6 {
+  background-color: white;
+  color: grey;
+  position: relative;
+  top: -2px;
+  left: -50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+/* Dot show status like online or offline */
+
+.dot6 {
+  position: absolute;
+  height: 10px;
+  background-color: green;
+  width: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  top: 560px;
+  right: 319px;
+}
+
+/* Menu Button */
+.menu-button6 {
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top: 570px;
+  right: 38px;
+}
+
+/* Profile 7 */
+.pro7 {
+  color: whitesmoke;
+  background-color: white;
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image of person */
+.images {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Name of Person */
+
+.name7 {
+  color: black;
+  position: relative;
+  top: -25px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Person of id */
+
+.id7 {
+  background-color: white;
+  color: grey;
+  position: relative;
+  top: -2px;
+  left: -70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+/* Dot show status like online or offline */
+
+.dot7 {
+  position: absolute;
+  height: 10px;
+  background-color: black;
+  width: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  top: 650px;
+  right: 319px;
+}
+
+/* Menu Button */
+.menu-button7 {
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top: 650px;
+  right: 38px;
+}
+
+/* Profile 8 */
+.pro8 {
+  color: whitesmoke;
+  background-color: white;
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image of person */
+.images {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Name of Person */
+
+.name8 {
+  color: black;
+  position: relative;
+  top: -25px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Person of id */
+
+.id8 {
+  background-color: white;
+  color: grey;
+  position: relative;
+  top: -2px;
+  left: -59px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+/* Dot show status like online or offline */
+
+.dot8 {
+  position: absolute;
+  height: 10px;
+  background-color: red;
+  width: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  top: 739px;
+  right: 319px;
+}
+
+/* Menu Button */
+.menu-button8 {
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top: 740px;
+  right: 38px;
+}
+
+/* Profile 9 */
+.pro9 {
+  color: whitesmoke;
+  background-color: white;
+  cursor: pointer;
+  height: 90px;
+  width: 100%;
+}
+
+/* Image of person */
+.images {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Name of Person */
+
+.name9 {
+  color: black;
+  position: relative;
+  top: -25px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Person of id */
+
+.id9 {
+  background-color: white;
+  color: grey;
+  position: relative;
+  top: -2px;
+  left: -39px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+/* Dot show status like online or offline */
+
+.dot9 {
+  position: absolute;
+  height: 10px;
+  background-color: rgb(201, 51, 76);
+  width: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  top: 825px;
+  right: 319px;
+}
+
+/* Menu Button */
+.menu-button9 {
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top: 830px;
+  right: 38px;
+}
+
+/* Profile 10 */
+.pro10 {
+  color: whitesmoke;
+  background-color: white;
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image of person */
+.images {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* Name of Person */
+
+.name10 {
+  color: black;
+  position: relative;
+  top: -25px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Person of id */
+
+.id10 {
+  background-color: white;
+  color: grey;
+  position: relative;
+  top: -2px;
+  left: -49px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+/* Dot show status like online or offline */
+
+.dot10 {
+  position: absolute;
+  height: 10px;
+  background-color: green;
+  width: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  top: 935px;
+  right: 319px;
+}
+
+/* Menu Button */
+.menu-button10 {
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top: 930px;
+  right: 38px;
+}

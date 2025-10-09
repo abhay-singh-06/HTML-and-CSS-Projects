@@ -1,0 +1,64 @@
+* {
+  background-color: #8a94a6;
+}
+
+.block {
+  border: 3px solid white;
+  background-color: white;
+  border-radius: 5px;
+  height: 200px;
+  width: 350px;
+  padding: 30px 30px 30px 50px;
+  position: relative;
+  top: 200px;
+  left: 300px;
+}
+
+.check {
+  background-color: #d6f8d6;
+  color: green;
+  height: 45px;
+  width: 45px;
+  border: #d6f8d6;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 190px;
+}
+.status {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 90px;
+  left: 130px;
+}
+
+.para {
+  background-color: white;
+  position: absolute;
+  top: 110px;
+  font-size: 17px;
+  color: grey;
+  font: semibold;
+  padding-left: 50px;
+}
+.bttn {
+  background-color: rgb(100, 102, 254);
+  font-size: 17px;
+  padding: 10px 60px 10px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 190px;
+  left: 64px;
+  border: white;
+  border-radius: 5px;
+}
+
+div1 {
+  background-color: white;
+}

@@ -3,11 +3,13 @@
 .container {
   border: 1px solid rgb(213, 213, 213);
   height: 60px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 20px;
   display: flex;
   gap: 20px;
   justify-content: center;
+  font-family: sans-serif;
+  cursor: pointer;
 }
 
 /* Step Related css */
@@ -15,48 +17,32 @@
 a {
   text-decoration: none;
   display: flex;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 /* Step Hover */
 
 a:hover {
   opacity: 0.6;
 }
-
-/* First Step Process */
-
 .step1 {
-  border: 1px solid rgb(40, 5, 241);
+  height: 4px;
+  width: 400px;
   background-color: blue;
-  cursor: pointer;
-  height: 2px;
-  width: 300px;
-  font-family: sans-serif;
-  font-size: 15px;
-  cursor: pointer;
+
+  border: 1px solid blue;
+  margin: 10px;
 }
-
-/* Second Step Process */
-
 .step2 {
-  height: 2px;
-  width: 300px;
-  border: 2px solid blue;
+  height: 4px;
+  width: 400px;
   background-color: blue;
-  height: 2px;
-  font-family: sans-serif;
-  font-size: 15px;
-  cursor: pointer;
+  border: 1px solid blue;
+  margin: 10px;
 }
-
-/* Third Step Process */
-
 .step3 {
-  height: 2px;
-  width: 300px;
-  border: 2px solid rgb(191, 187, 205);
-  background-color: rgb(191, 187, 205);
-  font-family: sans-serif;
-  font-size: 15px;
-  cursor: pointer;
+  height: 4px;
+  width: 400px;
+  background-color: rgb(224, 217, 217);
+  border: 1px solid rgb(224, 217, 217);
+  margin: 10px;
 }

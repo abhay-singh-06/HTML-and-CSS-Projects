@@ -1,3 +1,5 @@
+/* Main container css style changing */
+
 .maincontainer {
   height: 100px;
   background-color: black;
@@ -9,6 +11,9 @@
   font-family: sans-serif;
   border-radius: 10px;
 }
+
+/* bullet 1 create section */
+
 a1 {
   background-color: red;
   color: red;
@@ -18,6 +23,13 @@ a1 {
   margin-left: 20px;
   border-radius: 100%;
 }
+/* hover 1 */
+a1:hover {
+  opacity: 0.8;
+}
+
+/* bullet 2 create section */
+
 a2 {
   background-color: rgb(102, 98, 228);
   color: red;
@@ -29,6 +41,15 @@ a2 {
   box-shadow: 1px 1px 1px rgb(95, 57, 210);
   border: 3px solid rgb(174, 172, 187);
 }
+
+/* Hover bullet 2 */
+
+a1:hover {
+  opacity: 0.8;
+}
+
+/* bullet 3 create section */
+
 a3 {
   background-color: rgb(141, 140, 140);
   color: red;
@@ -38,6 +59,13 @@ a3 {
   margin-left: 20px;
   border-radius: 100%;
 }
+
+a1:hover {
+  opacity: 0.8;
+}
+
+/* bullet 4 create section */
+
 a4 {
   background-color: rgb(141, 140, 140);
   color: red;
@@ -46,4 +74,7 @@ a4 {
   display: flex;
   margin-left: 20px;
   border-radius: 100%;
+}
+a1:hover {
+  opacity: 0.8;
 }

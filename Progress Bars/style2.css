@@ -1,0 +1,49 @@
+.maincontainer {
+  height: 100px;
+  background-color: black;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+a1 {
+  background-color: red;
+  color: red;
+  height: 10px;
+  width: 10px;
+  display: flex;
+  margin-left: 20px;
+  border-radius: 100%;
+}
+a2 {
+  background-color: rgb(102, 98, 228);
+  color: red;
+  height: 10px;
+  width: 10px;
+  display: flex;
+  margin-left: 20px;
+  border-radius: 100%;
+  box-shadow: 1px 1px 1px rgb(95, 57, 210);
+  border: 3px solid rgb(174, 172, 187);
+}
+a3 {
+  background-color: rgb(141, 140, 140);
+  color: red;
+  height: 10px;
+  width: 10px;
+  display: flex;
+  margin-left: 20px;
+  border-radius: 100%;
+}
+a4 {
+  background-color: rgb(141, 140, 140);
+  color: red;
+  height: 10px;
+  width: 10px;
+  display: flex;
+  margin-left: 20px;
+  border-radius: 100%;
+}

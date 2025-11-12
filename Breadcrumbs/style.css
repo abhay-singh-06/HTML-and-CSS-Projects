@@ -1,0 +1,67 @@
+/* Body style section */
+
+body {
+  background-color: #f5f6f8;
+  display: flex;
+  overflow-x: auto;
+}
+
+/* 
+Main body container */
+
+.main-container {
+  height: 25px;
+  width: 350px;
+  border: 2px solid;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: white;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+}
+
+/* Home icon  */
+.home {
+  color: rgb(146, 148, 150);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 30px;
+}
+.home:hover {
+  color: #6a6e73;
+}
+/* Seprator  which is used in thi box */
+
+.seprator {
+  width: 35px;
+  height: 35px;
+  border-top: 2px solid #e5e7eb;
+  border-right: 2px solid #e5e7eb;
+  transform: rotate(45deg);
+}
+
+/* Project section */
+.project {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  color: #858688;
+}
+
+/* 
+hover section on project */
+
+.project:hover {
+  color: #6a6e73;
+}
+.arrow {
+  width: 35px;
+  height: 35px;
+  border-top: 2px solid #e5e7eb;
+  border-right: 2px solid #e5e7eb;
+  transform: rotate(45deg);
+}

@@ -1,6 +1,6 @@
 /* main body color change */
 * {
-  background-color: black;
+  background-color: rgb(3, 1, 18);
 }
 /* container style change */
 .conatiner {
@@ -9,7 +9,7 @@
   height: 30px;
   width: 350px;
   padding: 20px;
-  background-color: #0d1117;
+  background-color: #03122a;
   border-radius: 15px;
   position: absolute;
   right: 20px;

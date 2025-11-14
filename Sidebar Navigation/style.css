@@ -1,0 +1,101 @@
+/* All over the body style change here */
+
+body {
+  overflow: hidden;
+  background-color: rgb(3, 1, 18);
+  color: white;
+}
+
+/* Main container section */
+.main-container {
+  height: 685px;
+  width: 300px;
+  border: 1px solid rgb(52, 50, 50);
+  position: relative;
+  left: -8px;
+  top: -9px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* logo section head */
+.head {
+  height: 120px;
+}
+
+/* Logo section style  */
+
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  height: 45px;
+  width: 45px;
+}
+/* Dashboard style section */
+.dash {
+  display: flex;
+  height: 35px;
+  background-color: rgb(33, 31, 50);
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Home icon section */
+.fa-home {
+  color: white;
+  font-size: 23px;
+}
+
+.board {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin: 30px;
+}
+/* Dashboard text style none */
+a {
+  text-decoration: none;
+}
+/* Second Option list */
+.team {
+  display: flex;
+  height: 35px;
+
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.list {
+  background-color: rgb(3, 1, 18);
+  position: relative;
+  right: -100px;
+}
+.team:hover {
+  background-color: rgb(33, 31, 50);
+}
+.fa-user {
+  text-decoration: none;
+  color: white;
+  gap: 20px;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+}
+ul a {
+  display: block;
+  padding: 20px 25px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}

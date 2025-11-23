@@ -1,0 +1,177 @@
+/* Full body style css */
+body {
+  background-color: rgb(3, 1, 18);
+}
+
+/* Main container  */
+
+.main-container {
+  border: 3px solid rgb(3, 1, 18);
+  width: 350px;
+  height: 650px;
+  display: flex;
+  position: relative;
+  margin: 0px auto;
+}
+
+.first-section {
+  height: 270px;
+  border: 2px solidrgb(3, 1, 18);
+  margin-left: 20px;
+  width: 280px;
+  padding-right: 39px;
+}
+
+ul li {
+  word-spacing: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  list-style: none;
+}
+
+.dash {
+  background-color: rgb(28, 36, 51);
+}
+
+li {
+  border: 2px solid rgb(3, 1, 18);
+  height: 35px;
+  width: 235px;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  padding-right: 40px;
+}
+
+ul li:hover {
+  background-color: rgb(28, 36, 51);
+  list-style: none;
+}
+
+/* Team section change style css */
+
+.team i {
+  padding: 10px;
+  padding-right: 25px;
+}
+
+.fa-home {
+  color: white;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.butt1 {
+  border-radius: 20px;
+  width: 30px;
+  background-color: rgb(34, 34, 40);
+  color: rgb(183, 181, 181);
+  border-radius: 50px;
+  border-color: rgb(141, 141, 158);
+}
+
+/* Project section change style css */
+
+.Project i {
+  padding: 10px;
+  padding-right: 25px;
+}
+
+/* calendar section change style css  */
+
+.Calendar i {
+  padding: 10px;
+  padding-right: 25px;
+}
+
+.butt2 {
+  border-radius: 50px;
+  background-color: rgb(34, 34, 40);
+  border-color: rgb(141, 141, 158);
+  color: rgb(183, 181, 181);
+  position: relative;
+  left: 30px;
+}
+
+/* Document section style css */
+
+.Document i {
+  padding: 10px;
+  padding-right: 25px;
+}
+
+.butt3 {
+  border-radius: 50px;
+  background-color: rgb(34, 34, 40);
+  border-color: rgb(141, 141, 158);
+  color: rgb(183, 181, 181);
+  position: relative;
+  left: 5px;
+}
+
+/* Report section style css */
+
+.Report i {
+  padding: 10px;
+  padding-right: 25px;
+}
+
+/* Second section over all style css here */
+
+.second-section {
+  height: 270px;
+  border: 2px solid rgb(3, 1, 18);
+  margin-left: 20px;
+  width: 280px;
+  padding-right: 39px;
+  font-family: sans-serif;
+  font-size: 17px;
+  position: relative;
+  top: 270px;
+  right: 340px;
+}
+
+/* button style change of second-section */
+
+.second-section button {
+  border-radius: 8px;
+  display: inline-flex;
+
+  margin-left: 10px;
+  margin-top: 5px;
+  background-color: rgb(3, 1, 18);
+  color: grey;
+  border: 1px solid grey;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Customer migration guide section */
+
+.cust {
+  width: 270px;
+}
+
+/* second-section li style  */
+
+.second-section ul li {
+  margin-top: 17px;
+}
+
+/* Project paragraph  style css */
+
+.Projec {
+  position: relative;
+  right: -51px;
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: grey;
+  font-weight: 600;
+}
